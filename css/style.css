@@ -1,0 +1,79 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #FFD9C0;
+    line-height: 1.5;
+    margin: 0;
+    
+}
+
+h2 {
+    line-height: 2;
+    font-family: 'Montserrat-black', sans-serif;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+    display: inline-block;
+    color: #3A3845;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+hr {
+    border: dotted #97c5c581 6px;
+    border-bottom: none;
+    width: 100%;
+    margin: 100px auto;
+}
+
+/*Survery form Section*/
+
+#survey-form {
+    background-color: #FAF0D7;
+    border-radius: 5%;
+    display: inline-block;
+    width: 70%;
+    padding: 5% 15%;
+}
+
+/* Heading Section */
+
+.big-heading {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    padding: 0 0 40px 0; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*Personal details section*/
+
+.gender {
+    position: relative;
+    right: 35px;
+    top: 2px;
+}
+
+/*Row section*/
+
+.row {
+    display: flex;
+    flex-direction:row;
+}
+
+.column {
+    margin: 3px;
+    flex: 1 1 0px;
+    
+}
+
+/*Selector role*/
+
+.selector-role {
+    font-size: 1rem;
+    margin: 10px
+}
