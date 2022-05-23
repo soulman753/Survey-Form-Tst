@@ -92,7 +92,13 @@ hr {
 /*Media query*/
 
 @media (max-width: 990px) and (min-width: 771px) {
-    .container{
+    .container {
         width: 65%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
     }
 }
