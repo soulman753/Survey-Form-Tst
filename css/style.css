@@ -2,7 +2,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #FFD9C0;
     line-height: 1.5;
-    margin: 0;
+    margin: 5%
     
 }
 
@@ -32,8 +32,7 @@ hr {
     background-color: #FAF0D7;
     border-radius: 5%;
     display: inline-block;
-    width: 70%;
-    padding: 5% 15%;
+    padding: 3% 7%;
 }
 
 /* Heading Section */
@@ -76,4 +75,26 @@ hr {
 .selector-role {
     font-size: 1rem;
     margin: 10px
+}
+
+/*Button*/
+
+.submit-button {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 5px 20px;
+    margin: 30px;
+    font-size: inherit;
+    line-height: inherit;
+    position: relative;
+    left: 190px;
+}
+
+/*Media query*/
+
+@media (max-width: 763px) {
+    .container{
+        width: 65%;
+    }
 }
